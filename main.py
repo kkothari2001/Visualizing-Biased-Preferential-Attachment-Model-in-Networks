@@ -5,10 +5,10 @@ from colour import Color
 n = 15  # Number of vertices
 r = 0.3  # Probability of a red node
 col = [RED, BLUE]
-rho = 0.5  # Degree of homophily
+rho = 0.1  # Degree of homophily
 
 
-class MovingVertices(Scene):
+class SimulateNetwork(Scene):
     def construct(self):
         # Initializing the animation
         vertices = list(range(n))
